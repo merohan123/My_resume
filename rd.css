@@ -1,0 +1,192 @@
+
+header {
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	background-color: rgba(255, 99, 71, 0.2);
+	color: black;
+	padding: 10px;
+  }
+  
+  header h1 {
+	margin: 0 auto;
+	text-align: center;
+	display:inline-flex;
+	background-color: #ccc;
+  }
+  
+  nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+  }
+  
+  nav ul li {
+	display: inline-block;
+	font-family: cursive;
+	margin: 0 10px;
+  }
+  
+  nav ul li a {
+	color: black;
+	text-decoration: none;
+	font-size: 18px;
+  }
+  
+  nav ul li a:hover {
+	color: yellowgreen;
+  }
+  #personaldetails {
+	background-color: rgb(240,255,240);
+	border: 1px solid #ddd;
+  }
+  
+  #personaldetails h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	display:inline-flex;
+	background-color:#ccc;
+	font-weight: bold;
+	margin-bottom: 10px;
+  }
+  
+  #personaldetails article li {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	margin-bottom: 5px;
+  }
+  #education h2{
+	display: inline-flex;
+	background-color: #ccc;
+  }
+  #education {
+	font-family: Arial, Helvetica, sans-serif;
+	margin-top: 20px;
+  }
+  
+  table {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	border-collapse: collapse;
+	width: 100%;
+	margin-bottom: 20px;
+  }
+  
+  th {
+	background-color: #f2f2f2;
+	color: #333;
+	font-weight: bold;
+	padding: 10px;
+	text-align: left;
+	border: 1px solid #ddd;
+  }
+  
+  td {
+	border: 1px solid #ddd;
+	padding: 10px;
+  }
+  
+  tr:nth-child(even) {
+	background-color: #f2f2f2;
+  }
+  tr:nth-child(odd) {
+	background-color: ghostwhite;
+  }
+  #skills {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: 	rgb(255,255,240);
+  }
+  
+  #skills h2 {
+	font-size: 24px;
+	margin-bottom: 10px;
+	display: inline-flex;
+	background-color: #ccc;
+  }
+  
+  #skills ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+  }
+  
+  #skills li {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 16px;
+	margin-bottom: 5px;
+  }
+  
+  #skills li:before {
+	content: "• ";
+	color: #333;
+	font-size: 12px;
+	font-weight: bold;
+	margin-right: 5px;
+  }
+  
+  #technicalobjectives {
+	margin: 20px 0;
+	background-color:	rgb(253,245,230);
+  }
+  
+  #technicalobjectives h2 {
+	font-size: 24px;
+	margin-bottom: 10px;
+	display: inline-flex;
+	background-color: #ccc;
+  }
+  
+  #technicalobjectives ul {
+	list-style: disc;
+	margin-left: 30px;
+	font-size: 18px;
+  }
+  
+  #technicalobjectives li {
+	margin-bottom: 10px;
+	line-height: 1.5;
+  }
+  
+  #technicalobjectives hr {
+	margin: 20px 0;
+	border: none;
+	border-top: 1px solid #ccc;
+  }
+  #contactme {
+	background-color: #f1f1f1;
+	padding: 20px;
+	text-align: center;
+	font-size: 1.2em;
+  }
+  
+  #contact {
+	margin-bottom: 10px;
+  }
+  
+  #contactme a {
+	text-decoration: none;
+	color: #0077cc;
+  }
+  
+  #contactme a:hover {
+	color: #005580;
+  }
+  
+  #contactme p {
+	margin-bottom: 5px;
+  }
+  
+  #contactme p:last-child {
+	margin-bottom: 0;
+  }
+  
+  #contactme a[href="#"] {
+	display: block;
+	margin-top: 10px;
+	text-decoration: none;
+	color: #555;
+	font-size: 0.9em;
+  }
+  
+  #contactme a[href="#"]:hover {
+	color: #000;
+  }
+  
